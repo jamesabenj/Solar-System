@@ -1,0 +1,105 @@
+* {
+    font-family: 'gotham';
+}
+
+@font-face {
+    font-family: 'gotham';
+    src: url("fonts/gotham-light.otf") format("opentype");
+}
+
+html, body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#user-form {
+    text-align: center;
+    margin: auto;
+}
+
+#username {
+    text-align: center;
+    border-radius: 20px; 
+    width: 300px; 
+    height: 40px; 
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.button {
+    font-size: 15px;
+}
+
+#planet-select div{
+    width: 5000px;
+    height: 600px;
+}
+
+div.planet-image {
+    position: relative;
+    text-align: center;
+    top: 75px;
+    flex: 12.5%;
+    font-size: 40px;
+    color: white;
+}
+
+.label {
+    text-align: center;
+}
+
+#left-arrow {
+    position: absolute;
+    top: 300px;
+    font-size: 50px;
+}
+
+#right-arrow {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    font-size: 50px;
+}
+
+#background-image {
+    width: 100%;
+    z-index: -1;
+}
+
+#icon-bar {
+    width: 50px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+  
+#icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 25px; /* Increased font-size */
+}
+  
+#icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+  
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,3 @@
+`The fourth planet from the Sun, Mars is a dusty, cold, desert world with a very thin atmosphere.
+This dynamic planet has seasons, polar ice caps and weather and canyons and extinct volcanoes, evidence it was once an even more active past.
+Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA currently has three spacecraft in orbit, one rover and one lander on the surface. India and ESA also have spacecraft in orbit above Mars. These robotic explorers have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago. NASA launched the next-generation Perseverance rover to Mars on July 30,2020.`
