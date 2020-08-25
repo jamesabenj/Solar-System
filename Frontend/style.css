@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'gotham';
-    src: url("fonts/gotham-light.otf") format("opentype");
+    src: url("fonts/gotham_light.otf") format("opentype");
 }
 
 html, body {
@@ -12,6 +12,11 @@ html, body {
 }
 
 h1 {
+    color: white;
+}
+
+#header-2 {
+    font-style: italic;
     color: white;
 }
 
@@ -38,12 +43,7 @@ h2 {
     font-size: 15px;
 }
 
-#planet-select div{
-    width: 5000px;
-    height: 600px;
-}
-
-div.planet-image {
+.planet-image {
     position: relative;
     text-align: center;
     top: 75px;
@@ -56,10 +56,30 @@ div.planet-image {
     text-align: center;
 }
 
-#left-arrow {
-    position: absolute;
-    top: 300px;
-    font-size: 50px;
+.collapsible {
+    background-color: black;
+    color: #444;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding: 18px;
 }
 
 #right-arrow {
@@ -69,24 +89,22 @@ div.planet-image {
     font-size: 50px;
 }
 
-#background-image {
-    width: 100%;
-    z-index: -1;
-}
-
 #icon-bar {
-    width: 50px; /* Set a specific width */
+    width: auto; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
     position: fixed;
-    right: 0px;
-    top: 0px;
+    top: 0;
+    right: 0;
+    overflow: auto;
     z-index: 1;
+    margin: 5px;
 }
   
 #icon-bar a {
-    display: block; /* Make the links appear below each other instead of side-by-side */
+    float: right;
     text-align: center; /* Center-align text */
-    padding: 16px; /* Add some padding */
+    width: auto;
+    padding: 10px; /* Add some padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
     font-size: 25px; /* Increased font-size */
@@ -100,6 +118,22 @@ div.planet-image {
     background-color: #4CAF50; /* Add an active/current color */
 }
 
+.multiple-choice {
+    color: white;
+}
+
 .hidden {
     display: none;
+}
+
+.show {
+    display: flex;
+    width: 5000px;
+}
+
+#reset {
+    display: none;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
 }
