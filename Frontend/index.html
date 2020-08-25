@@ -14,64 +14,87 @@
 </head>
 
 <body>
-    <h1 id="header">The Solar System</h1>
-
+    <h1 id="header">The Solar System quiz</h1>
     <h2 id="form-header">Enter a Username To Explore</h2>
 
     <div id="user-form">
 
     </div>
 
-    <img id="background-image" src="images/homepage_earth.jpg">
+    <!-- <img id="background-image" src="images/homepage_earth.jpg"> -->
 
     <div id="icon-bar" class="hidden">
-        <a class="active" href="#"><i class="fa fa-home"></i></a>
-        <a href="#"><i class="fa fa-search"></i></a>
-        <a href="#"><i class="fa fa-envelope"></i></a>
-        <a href="#"><i class="fa fa-globe"></i></a>
-        <a href="#"><i class="fa fa-trash"></i></a>
+        <a href="#" id="grade"><i class="fas fa-angle-double-right"></i></a>
+        <a href="#"><img src="Favorites/icons8-mercury-50.svg" width="20" height="auto"></a>
+        <a href="#"><img src="Favorites/icons8-venus-symbol-50.svg" width="20" height="auto"></a>
+        <a href="#"><img src="Favorites/icons8-earth-symbol-50.svg" width="20" height="auto"></a>
+        <a href="#"><img src="Favorites/icons8-mars-symbol-50.svg" width="20" height="auto"></a>
+        <a href="#"><img src="Favorites/icons8-jupiter-symbol-50.svg" width="20" height="auto"></a>
+        <a href="#"><img src="Favorites/icons8-saturn-symbol-50.svg" width="20" height="auto"></a>
+        <a href="#"><img src="Favorites/icons8-uranus-symbol-50.svg" width="20" height="auto"></a>
+        <a href="#"><img src="Favorites/icons8-neptune-symbol-50.svg" width="20" height="auto"></a>
     </div>
 
-    <div id="lessons">
-        <ul>
-            <li></li>
-        </ul>
-    </div>
 
     <div id="planet-select" class="hidden">
         <div id="mercury" class="planet-image">
-            <img src="images/mercury.jpeg" width="275" height="200">
-            <p class="label">Mercury</p>
+                <img id="mercury" src="images/mercury.jpeg" width="275" height="200">
+                <p class="label">Mercury</p>
+                <button type="button" class="collapsible">+</button>
+                <div id="mercury-lesson" class="content"></div>
         </div>
         <div id="venus" class="planet-image">
             <img src="images/Venus-Planet.jpg" width="380" height="300">
             <p class="label">Venus</p>
+            <button type="button" class="collapsible">+</button>
+            <div id="venus-lesson" class="content"></div>
         </div>
         <div id="earth" class="planet-image">
             <img src="images/Earth.jpg" width="400" height="325">
             <p class="label">Earth</p>
+            <button type="button" class="collapsible">+</button>
+            <div id="earth-lesson" class="content"></div>
         </div>
         <div id="mars" class="planet-image">
             <img src="images/mars.png" width="250" height="250">
             <p class="label">Mars</p>
+            <button type="button" class="collapsible">+</button>
+            <div id="mars-lesson" class="content"></div>
         </div>
         <div id="jupiter" class="planet-image">
             <img src="images/jupiter.png" width="400" height="400">
             <p class="label">Jupiter</p>
+            <button type="button" class="collapsible">+</button>
+            <div id="jupiter-lesson" class="content"></div>
         </div>
         <div id="saturn" class="planet-image">
             <img src="images/saturn.png" width="700" height="350">
             <p class="label">Saturn</p>
+            <button type="button" class="collapsible">+</button>
+            <div id="saturn-lesson" class="content"></div>
         </div>
         <div id="uranus" class="planet-image">
             <img src="images/uranus.png" width="250" height="250">
             <p class="label">Uranus</p>
+            <button type="button" class="collapsible">+</button>
+            <div id="uranus-lesson" class="content"></div>
         </div>
         <div id="neptune" class="planet-image">
             <img src="images/neptune.jpg" alt="neptune" width="300" height="250">
             <p class="label">Neptune</p>
+            <button type="button" class="collapsible">+</button>
+            <div id="neptune-lesson" class="content"></div>
         </div>
     </div>
+
+    <div id="grade-book">
+    
+    </div>
+    <button type="button" id="reset" style="display: none">Reset</button>
+
+
+  
+
 
 
     <!-- <canvas id="canvas" width="2000" height="600"> -->
@@ -86,9 +109,11 @@
         <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L12.793 8l-2.647-2.646a.5.5 0 0 1 0-.708z"/>
         <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5H13a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
     </svg> -->
+</body>
+<footer>
     <script src="index.js"></script>
     <script src="constants.js"></script>
-</body>
+</footer>
 
 </html>
 
