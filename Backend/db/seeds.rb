@@ -124,116 +124,116 @@ Question.create(
 
 Lesson.create(planet: "jupiter")
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Jupiter is 2.5 times more massive than ____",
+    "option1" => "Earth",
+    "option2" => "Venus",
+    "option3" => "Neptune",
+    "option4" => "All the other planets combined",
+    answer: "All the other planets combined",
     lesson_id: 5
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
+    title: "Jupiter has the lagest ocean in the solar system, made of liquid ____",
     "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    "option2" => "Hydrogen",
+    "option3" => "Helium",
+    "option4" => "Oxygen",
+    answer: "Hydrogen",
     lesson_id: 5
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Despite it's size, Jupiter has the shortest day in the solar system, completing a rotation in ____ hours",
+    "option1" => "15",
+    "option2" => "14",
+    "option3" => "12",
+    "option4" => "10",
+    answer: "10",
     lesson_id: 5
 )
 
 Lesson.create(planet: "saturn")
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
+    title: "Although it is its most distinct feature, Saturn isn't the only planet with ____",
     "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    "option2" => "Clouds",
+    "option3" => "Rings",
+    "option4" => "Moons",
+    answer: "Rings",
     lesson_id: 6
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Saturn has 53 confirmed ____",
+    "option1" => "Rings",
+    "option2" => "Moons",
+    "option3" => "Aliens",
+    "option4" => "Oceans",
+    answer: "Moons",
     lesson_id: 6
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Saturn takes roughly ____ Earth years to orbit the sun",
+    "option1" => "10",
+    "option2" => "14",
+    "option3" => "29",
+    "option4" => "3",
+    answer: "29",
     lesson_id: 6
 )
 
 Lesson.create(planet: "uranus")
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Uranus has a unique rotation, ratating ____",
+    "option1" => "Quickly",
+    "option2" => "On its Side",
+    "option3" => "Slowly",
+    "option4" => "It does not rotate",
+    answer: "On its Side",
     lesson_id: 7
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Uranus was the first planet discovered using ____",
+    "option1" => "A Telescope",
+    "option2" => "Binoculars",
+    "option3" => "A Spaceship",
+    "option4" => "A Satelite",
+    answer: "A Telescope",
     lesson_id: 7
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Uranus sees the lowest ____ of any planet",
+    "option1" => "Pressure",
+    "option2" => "Gravity",
+    "option3" => "Temperature",
+    "option4" => "Speed",
+    answer: "Temperature",
     lesson_id: 7
 )
 
 Lesson.create(planet: "neptune")
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Neptune's surface gravity is most similar to ____",
+    "option1" => "Earth",
+    "option2" => "Moon",
+    "option3" => "Venus",
+    "option4" => "Saturn",
+    answer: "Earth",
     lesson_id: 8
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Neptune has the strongest ____ in the solar system",
+    "option1" => "Gravity",
+    "option2" => "Winds",
+    "option3" => "Currents",
+    "option4" => "Rotation",
+    answer: "Winds",
     lesson_id: 8
 )
 Question.create(
-    title: "'Earth' is a Germanic word that means ____",
-    "option1" => "Water",
-    "option2" => "Third",
-    "option3" => "Ground",
-    "option4" => "Life",
-    answer: "Ground",
+    title: "Neptune takes roughly ____ Earth years to orbit the Sun",
+    "option1" => "30",
+    "option2" => "75",
+    "option3" => "50",
+    "option4" => "165",
+    answer: "165",
     lesson_id: 8
 )
